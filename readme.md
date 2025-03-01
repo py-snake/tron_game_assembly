@@ -42,6 +42,19 @@ You can download DOSBox from [here](https://www.dosbox.com/). MASM and LINK are 
      ```
    - This will generate an executable file (`game.exe`).
 
+## Easier Building with `b.bat`
+
+To simplify the build process, a batch file (`b.bat`) is provided. This script automates the compilation and linking of the Assembly code using **MASM** and **LINK**. It also cleans up intermediate files and runs the resulting executable.
+
+### How to Use `b.bat`
+
+1. Place `b.bat` in the same directory as your Assembly file.
+2. Open a command prompt or DOSBox and navigate to the directory.
+3. Run the following command:
+   ```bash
+   b.bat tron
+   ```
+
 ## Running the Project
 
 1. **Run the Executable**:
